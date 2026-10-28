@@ -3,10 +3,12 @@ import React from 'react';
 export default function App() {
   return (
     <div className="min-h-screen bg-[#141715] flex flex-col items-center justify-start py-0 sm:py-6 px-0 sm:px-2">
-      {/* Menu Card Container rendered at full native resolution (1215px width) */}
-      <main className="w-full max-w-[1215px] mx-auto bg-[#FAF6EC] shadow-2xl overflow-hidden sm:rounded-sm flex justify-center">
+      {/* Menu Card Container rendered at ultra-high resolution generated from vector PDF */}
+      <main className="w-full max-w-[1280px] mx-auto bg-[#FAF6EC] shadow-2xl overflow-hidden sm:rounded-sm flex justify-center">
         <img
-          src="/assets/aistudio/Frame_193_57df070e.jpg"
+          src="/assets/aistudio/menu_card_ultra_hd.jpg"
+          srcSet="/assets/aistudio/menu_card_hi_res.jpg 1781w, /assets/aistudio/menu_card_ultra_hd.jpg 2138w"
+          sizes="(max-width: 768px) 100vw, 1280px"
           alt="Jems Table Catering Menu"
           className="w-full h-auto block select-none"
           loading="eager"
