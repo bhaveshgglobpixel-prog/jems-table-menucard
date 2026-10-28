@@ -1,0 +1,6 @@
+{
+  "name": "Jems Table Catering Menu",
+  "description": "High-fidelity digital catering menu card for Jems Table — Thoughtfully Prepared and Joyfully Shared in the Chicagoland Area.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
