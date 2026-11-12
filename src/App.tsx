@@ -30,12 +30,12 @@ export default function App() {
             aria-label="Email bookings@jemstable.com"
           />
 
-          {/* Interactive Hotspot for Footer: Clickable QR Code / Contact Me */}
+          {/* Interactive Hotspot for Footer: Clickable QR Code / Start Your Order */}
           <a
             href="mailto:bookings@jemstable.com?subject=Jems%20Table%20Catering%20Order%20Inquiry"
             className="absolute right-[6.5%] top-[95.2%] w-[28%] h-[3.4%] rounded-xl cursor-pointer bg-transparent"
-            title="Contact Me / Tap to order"
-            aria-label="Contact Me"
+            title="Start Your Order / Tap to order"
+            aria-label="Start Your Order"
           />
         </div>
       </main>
